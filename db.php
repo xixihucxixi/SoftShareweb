@@ -3,7 +3,7 @@
 $db_host = 'localhost';      // 数据库服务器地址
 $db_name = 'down';    // 数据库名（请根据实际填写）
 $db_user = 'down';    // 用户名
-$db_pass = 'm4998735';// 密码
+$db_pass = '123456';// 密码
 
 $dsn = "mysql:host=$db_host;dbname=$db_name;charset=utf8mb4";
 $options = [
