@@ -1,4 +1,4 @@
-# SoftShareHub
+# SoftShareWeb
 
 一个简单实用的【PHP+MySQL】开源软件下载与管理平台，具备用户注册/登录、软件下载与分类、软件上传与后台审批、操作日志、AJAX体验美化等功能。适合高校实验/公司内部资料共享、开源会议资源分发及个人学习进阶使用。
 ## 项目截图
@@ -21,7 +21,7 @@
 
    ```bash
    git clone https://github.com/你的用户名/SoftShareHub.git
-   cd SoftShareHub
+   cd SoftShareWeb
 
 2.导入数据库结构
 使用 phpMyAdmin 或 CLI 导入 docs/database.sql 文件（你需备好建表SQL）。
