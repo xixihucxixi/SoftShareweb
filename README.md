@@ -5,7 +5,7 @@
 
 主页演示：
 
-![首页](1.png)
+![首页](https://cdn.ldstatic.com/original/4X/1/1/0/11035dd19faab45c611dd250877db22a3b8452fc.jpeg)
 ## 特性
 
 - 用户免登录浏览，注册后可下载软件资源（支持多用户）
