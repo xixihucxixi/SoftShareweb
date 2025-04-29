@@ -1,0 +1,118 @@
+/* 通用背景和字体微调 */
+body {
+    background-color: #f8f9fa;
+    font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    color: #222;
+}
+
+/* 顶部导航栏LOGO与标题 */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* 左侧分类栏 */
+.sidebar {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.04);
+}
+.list-group-item.category-active {
+    background: #007bff !important;
+    color: #fff;
+    font-weight: bold;
+    border-color: #003d80;
+}
+
+/* 卡片美化 */
+.card {
+    border-radius: 4px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* 上传弹窗 */
+#addform {
+    box-shadow: 0 4px 18px rgba(0,0,0,0.15);
+    border-radius: 7px;
+}
+
+/* 编辑弹窗覆盖层 */
+.modal {
+    z-index: 9999;
+}
+
+/* 上传进度条（Bootstrap风格） */
+.progress {
+    height: 25px;
+    border-radius: 6px;
+    background: #e9ecef;
+}
+.progress-bar {
+    font-weight: bold;
+    background-color: #4caf50 !important;
+    color: #fff;
+    transition: width 0.3s;
+}
+
+/* 上传/下载按钮特效 */
+.download-btn, .btn-success {
+    color: #fff !important;
+    background: #28a745;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.download-btn:hover, .btn-success:hover {
+    background: #218838 !important;
+}
+
+/* 错误/警告提示 */
+.alert {
+    font-size: 0.97rem;
+    border-radius: 5px;
+}
+.alert-danger {
+    background: #ffe5e8;
+    border-color: #f5c2c7;
+    color: #fa2848;
+}
+.alert-success {
+    background: #ebfaeb;
+    border-color: #a2dca2;
+    color: #258825;
+}
+.alert-warning {
+    background: #fff6e3;
+    border-color: #ffe885;
+    color: #946200;
+}
+
+/* form居中小巧卡片 */
+.login-box, .register-box {
+    max-width: 380px;
+    margin: 60px auto;
+}
+.card-header {
+    font-size: 20px;
+}
+.form-control:focus {
+    border-color: #0099ff;
+    box-shadow: 0 0 4px #9fd9ff;
+}
+
+/* 表格美化 */
+.table th {
+    background: #e9ecef;
+}
+
+@media (max-width: 768px) {
+    .sidebar { min-width:inherit; }
+    .card { box-shadow: none;}
+    #addform { left:10px; right:10px; margin-left:0; width:auto;}
+}
